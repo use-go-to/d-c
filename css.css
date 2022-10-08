@@ -1,0 +1,288 @@
+h1 {
+	color: #d28e38;
+	font-size: 80px;
+	font-family: Verdana;
+	text-shadow:0 4px 0 #814d0c, 0 -4px 0  #c8ab87;
+}
+
+
+
+ body {
+            width: 90%;
+            max-width: 900px;
+            margin: 2em auto;
+            font: .9em/1.2 Arial, Helvetica, sans-serif;
+            }
+
+.container > div {
+            border-radius: 5px;
+            padding: 10px;
+            background: repeating-linear-gradient(-45deg, #52be80, #52be80 5px, #008a19 5px, #008a19 15px); 
+            border: 1px solid  white ; }
+
+
+
+.container .dragon {
+            border-radius: 5px;
+            padding: 10px;
+            background: radial-gradient(white, #52be80);
+            border: 1px solid  white ; }
+
+
+
+
+
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+  grid-auto-rows: minmax(70px, auto);
+  gap: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+#cellule {
+	background-color:  #784212 ;
+
+}
+
+
+
+
+
+
+
+
+
+
+.container .chemin {
+	border-radius: 5px;
+            padding: 10px;
+            background: radial-gradient(#9b5e00, #d68910);
+            border: 1px solid  white ;
+	
+
+}
+
+
+
+
+
+
+.container .start {
+	border-radius: 5px;
+            padding: 10px;
+            background: radial-gradient(#331f00, #7e5109);
+            border: 1px solid  white ;
+	
+	
+}
+
+
+
+.container .coffre {
+	border-radius: 5px;
+            padding: 10px;
+            background: radial-gradient(#9b5e00, #d68910);
+            border: 1px solid  white ;
+}
+
+
+
+
+
+
+.container .chemin .mini1 {
+	opacity: 0;
+	
+}
+
+
+
+
+
+
+.container .start .mini1 {
+	opacity: 1;
+	
+}
+
+.container .start .mini1:hover {
+	opacity: 0.2;
+	
+}
+
+
+
+.container .start .mini1:active {
+	opacity: 0.2;
+	
+}
+
+
+
+.container .dragon .mini1 {
+	opacity: 1;
+	
+	
+	
+}
+
+
+
+
+.container .dragon .mini2 {
+	opacity: 0;
+	position: absolute;
+	z-index: 2;
+}
+
+
+
+
+
+
+
+
+.container .coffre .mini1 {
+	opacity: 0;
+	
+}
+
+.container .coffre .mini1:hover {
+	opacity: 0;
+	
+}
+
+.container .coffre .mini1:active {
+	opacity: 1;
+	
+}
+
+.Dé {
+	position: relative;
+				top: -85px;
+				left: 750px;
+}
+
+.Pioche {
+	position: relative;
+				top: 105px;
+				left: 150px;
+}
+
+
+
+
+
+
+
+.detaille {
+	opacity: 0;
+	position: relative;
+				top: -700px;
+				right: 910px;
+	color: #c92626;
+	font-size: 50px;
+	font-family: Verdana;
+	text-shadow:0 4px 0 #9a0000, 0 -4px 0  #c86b6b;
+	border-radius: 50px;
+            padding: 10px;
+            background-color: #9449FF;
+            border: 10px solid  #3E0097 ;
+	
+}
+
+.detaille:hover {
+	opacity: 1;
+	position: relative;
+				top: -700px;
+				right: 910px;
+	color: #c92626;
+	font-size: 50px;
+	font-family: Verdana;
+	text-shadow:0 4px 0 #9a0000, 0 -4px 0  #c86b6b;
+	border-radius: 50px;
+            padding: 10px;
+            background-color: #9449FF;
+            border: 10px solid  #3E0097 ;
+	
+}
+
+
+.detaille2 {
+	opacity: 0;
+	position: relative;
+				top: -700px;
+				right: 910px;
+	color: #a3287a;
+	font-size: 50px;
+	font-family: Verdana;
+	text-shadow:0 4px 0 #670045, 0 -4px 0  #c666a6;
+	border-radius: 50px;
+            padding: 10px;
+            background-color: #9449FF;
+            border: 10px solid  #3E0097 ;
+	
+}
+
+.detaille2:hover {
+	opacity: 1;
+	position: relative;
+				top: -700px;
+				right: 910px;
+	color: #a3287a;
+	font-size: 50px;
+	font-family: Verdana;
+	text-shadow:0 4px 0 #670045, 0 -4px 0  #c666a6;
+	border-radius: 50px;
+            padding: 10px;
+            background-color: #9449FF;
+            border: 10px solid  #3E0097 ;
+	
+}
+
+
+.detaille3 {
+	opacity: 0;
+	position: relative;
+				top: -700px;
+				right: 910px;
+	color: #2e2e2e;
+	font-size: 50px;
+	font-family: Verdana;
+	text-shadow:0 4px 0 #000000, 0 -4px 0  #797979;
+	border-radius: 50px;
+            padding: 10px;
+            background-color: #9449FF;
+            border: 10px solid  #3E0097 ;
+	
+}
+
+.detaille3:hover {
+	opacity: 1;
+	position: relative;
+				top: -700px;
+				right: 910px;
+	color: #2e2e2e;
+	font-size: 50px;
+	font-family: Verdana;
+	text-shadow:0 4px 0 #000000, 0 -4px 0  #797979;
+	border-radius: 50px;
+            padding: 10px;
+            background-color: #9449FF;
+            border: 10px solid  #3E0097 ;
+	
+}
+
+
+

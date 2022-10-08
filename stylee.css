@@ -1,0 +1,54 @@
+.Pion {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin: auto;
+	margin-top: -200px;
+	padding-left: 1000px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+body {
+	background-color:  #6800FF ;
+}
+
+h1 {
+	font-size: 100px;
+	font-family: Verdana;
+	text-shadow:0 4px 0 #283747, 0 -4px 0  #6c3483;
+}
+
+h2 {
+	color: #54ac5e;
+	font-size: 50px;
+	font-family: Verdana;
+	text-shadow:0 4px 0 #097e17, 0 -4px 0  #00d119;
+}
+
+h3 {
+	color: #54ac5e;
+	font-size: 70px;
+	font-family: Verdana;
+	text-shadow:0 4px 0 #097e17, 0 -4px 0  #00d119;
+}
+
+button {
+	border-radius: 50px;
+    padding: 5px;
+	border: 20px solid  #814d0c;
+	background: radial-gradient(#9b5e00, #d68910);
+	
+
+	
+	
+}
